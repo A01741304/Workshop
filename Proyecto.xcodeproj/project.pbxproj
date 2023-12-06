@@ -11,6 +11,7 @@
 		9B6519B22B1FE19000EA6AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6519B12B1FE19000EA6AE1 /* ContentView.swift */; };
 		9B6519B42B1FE19200EA6AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6519B32B1FE19200EA6AE1 /* Assets.xcassets */; };
 		9B6519B72B1FE19200EA6AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6519B62B1FE19200EA6AE1 /* Preview Assets.xcassets */; };
+		9B6519BF2B1FEB2100EA6AE1 /* MoreMoreJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9B6519B12B1FE19000EA6AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B6519B32B1FE19200EA6AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6519B62B1FE19200EA6AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreMoreJump.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9B6519AE2B1FE19000EA6AE1 /* Proyecto */ = {
 			isa = PBXGroup;
 			children = (
+				9B6519BD2B1FEA2200EA6AE1 /* Views */,
 				9B6519AF2B1FE19000EA6AE1 /* ProyectoApp.swift */,
 				9B6519B12B1FE19000EA6AE1 /* ContentView.swift */,
 				9B6519B32B1FE19200EA6AE1 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9B6519B62B1FE19200EA6AE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B6519BD2B1FEA2200EA6AE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				9B6519B22B1FE19000EA6AE1 /* ContentView.swift in Sources */,
 				9B6519B02B1FE19000EA6AE1 /* ProyectoApp.swift in Sources */,
+				9B6519BF2B1FEB2100EA6AE1 /* MoreMoreJump.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

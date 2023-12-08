@@ -21,9 +21,9 @@ struct Person  {
 }
 
 extension Person {
-    static let myProfile = Person(nombre: "Bernardo Santiago, M",
+    static let myProfile = Person(nombre: "Aguilar Meza, V.",
                                   profilePic: "https://i.postimg.cc/65vsMbhq/110957702.jpg",
-                                  hobbies: ["Coding", " "],
+                                  hobbies: ["Coding", "Running", "Drawing", "Reading"],
                                   projects: Project.myProjects,
                                   socialMedia: SocialMedia.mySocialMedia,
                                   photos: [ "https://i.postimg.cc/d0dmXdx8/i-Stock-683198946.jpg", "https://i.postimg.cc/qvNGsWcD/portada2-292.jpg"])

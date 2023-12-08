@@ -11,7 +11,7 @@ import SwiftUI
 struct ProyectoApp: App {
     var body: some Scene {
         WindowGroup {
-            MoreMoreJump()
+            ContentView()
         }
     }
 }

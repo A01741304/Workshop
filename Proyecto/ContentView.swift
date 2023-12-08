@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Valeria Aguilar Meza")
-            .padding()
+        TabView{ //para dejarte moverte entre tabs
+            ProfileNavigation(profile: Person.myProfile)
+                .tag("profile") //nombre unico para identificar esta pestaña en especifico
+                .tabItem {
+                    Label("My Profile", systemImage: "person.circle") //simbolo que se pondra en la aplicacion (SImbolsSF)
+                }
+            MySocialMedia(socialMedia: SocialMedia.mySocialMedia)
+                .tag("SocialMedia")
+                .tabItem{
+                    Label("Social Media", systemImage: "network")
+                }
+            
+        }
     }
 }
 

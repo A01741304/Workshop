@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B35933A2B212FBB006D8BCD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3593392B212FBB006D8BCD /* Person.swift */; };
-		9B35933C2B212FD1006D8BCD /* Proyect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35933B2B212FD1006D8BCD /* Proyect.swift */; };
+		9B35933C2B212FD1006D8BCD /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35933B2B212FD1006D8BCD /* Project.swift */; };
 		9B35933E2B213058006D8BCD /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35933D2B213058006D8BCD /* SocialMedia.swift */; };
 		9B3593402B21392C006D8BCD /* PersonProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35933F2B21392C006D8BCD /* PersonProfilePicture.swift */; };
 		9B6519B02B1FE19000EA6AE1 /* ProyectoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6519AF2B1FE19000EA6AE1 /* ProyectoApp.swift */; };
@@ -16,11 +16,15 @@
 		9B6519B42B1FE19200EA6AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6519B32B1FE19200EA6AE1 /* Assets.xcassets */; };
 		9B6519B72B1FE19200EA6AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6519B62B1FE19200EA6AE1 /* Preview Assets.xcassets */; };
 		9B6519BF2B1FEB2100EA6AE1 /* MoreMoreJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */; };
+		9B8FF4FA2B227E0E004B9ED9 /* ProfileDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FF4F92B227E0E004B9ED9 /* ProfileDescription.swift */; };
+		9B8FF4FC2B228AB7004B9ED9 /* ProfileNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FF4FB2B228AB7004B9ED9 /* ProfileNavigation.swift */; };
+		9B8FF4FE2B228C1B004B9ED9 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FF4FD2B228C1B004B9ED9 /* ProjectDetailView.swift */; };
+		9B8FF5022B229320004B9ED9 /* MySocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FF5012B229320004B9ED9 /* MySocialMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B3593392B212FBB006D8BCD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		9B35933B2B212FD1006D8BCD /* Proyect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyect.swift; sourceTree = "<group>"; };
+		9B35933B2B212FD1006D8BCD /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		9B35933D2B213058006D8BCD /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
 		9B35933F2B21392C006D8BCD /* PersonProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfilePicture.swift; sourceTree = "<group>"; };
 		9B6519AC2B1FE19000EA6AE1 /* Proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +33,10 @@
 		9B6519B32B1FE19200EA6AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6519B62B1FE19200EA6AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreMoreJump.swift; sourceTree = "<group>"; };
+		9B8FF4F92B227E0E004B9ED9 /* ProfileDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDescription.swift; sourceTree = "<group>"; };
+		9B8FF4FB2B228AB7004B9ED9 /* ProfileNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigation.swift; sourceTree = "<group>"; };
+		9B8FF4FD2B228C1B004B9ED9 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		9B8FF5012B229320004B9ED9 /* MySocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocialMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9B3593392B212FBB006D8BCD /* Person.swift */,
-				9B35933B2B212FD1006D8BCD /* Proyect.swift */,
+				9B35933B2B212FD1006D8BCD /* Project.swift */,
 				9B35933D2B213058006D8BCD /* SocialMedia.swift */,
 			);
 			path = Model;
@@ -94,6 +102,10 @@
 			children = (
 				9B6519BE2B1FEB2100EA6AE1 /* MoreMoreJump.swift */,
 				9B35933F2B21392C006D8BCD /* PersonProfilePicture.swift */,
+				9B8FF4F92B227E0E004B9ED9 /* ProfileDescription.swift */,
+				9B8FF4FB2B228AB7004B9ED9 /* ProfileNavigation.swift */,
+				9B8FF4FD2B228C1B004B9ED9 /* ProjectDetailView.swift */,
+				9B8FF5012B229320004B9ED9 /* MySocialMedia.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,11 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8FF4FA2B227E0E004B9ED9 /* ProfileDescription.swift in Sources */,
 				9B6519B22B1FE19000EA6AE1 /* ContentView.swift in Sources */,
 				9B6519B02B1FE19000EA6AE1 /* ProyectoApp.swift in Sources */,
-				9B35933C2B212FD1006D8BCD /* Proyect.swift in Sources */,
+				9B35933C2B212FD1006D8BCD /* Project.swift in Sources */,
 				9B35933E2B213058006D8BCD /* SocialMedia.swift in Sources */,
 				9B3593402B21392C006D8BCD /* PersonProfilePicture.swift in Sources */,
+				9B8FF5022B229320004B9ED9 /* MySocialMedia.swift in Sources */,
+				9B8FF4FC2B228AB7004B9ED9 /* ProfileNavigation.swift in Sources */,
+				9B8FF4FE2B228C1B004B9ED9 /* ProjectDetailView.swift in Sources */,
 				9B35933A2B212FBB006D8BCD /* Person.swift in Sources */,
 				9B6519BF2B1FEB2100EA6AE1 /* MoreMoreJump.swift in Sources */,
 			);

@@ -26,7 +26,7 @@ extension Person {
                                   hobbies: ["Coding", "Running", "Drawing", "Reading"],
                                   projects: Project.myProjects,
                                   socialMedia: SocialMedia.mySocialMedia,
-                                  photos: [ "https://i.postimg.cc/d0dmXdx8/i-Stock-683198946.jpg", "https://i.postimg.cc/qvNGsWcD/portada2-292.jpg"])
+                                  photos: [ "foto1","foto2"])
 }
 
 

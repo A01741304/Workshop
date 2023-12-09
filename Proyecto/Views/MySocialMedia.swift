@@ -16,7 +16,14 @@ struct MySocialMedia: View {
                 Link(destination: URL(string: media.url) ??
                      URL (string:"www.google.com")!) //esto manda a un link en automatico en caso de que el usuario ingrese un link invalido
                 {
-                    Text(media.media)
+                    HStack {
+                        Image(media.iconName)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 50)
+                        
+                        Text(media.media)
+                    }
                 }
             }
         }

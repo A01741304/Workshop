@@ -20,6 +20,14 @@ extension Project {
         Project(title: "SwiftUI Course",
                 description: "Learned app development with 15 other people in Swift using SwiftUI",
                 rating: 5,
+                photos: []),
+        Project(title: "App development course",
+                description: "Learned app development with 15 other people in Swift using SwiftUI",
+                rating: 5,
+                photos: []),
+        Project(title: "Course at Tec",
+                description: "Learned app development with 15 other people in Swift using SwiftUI",
+                rating: 5,
                 photos: [])
     ]
 }
